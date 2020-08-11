@@ -1,0 +1,103 @@
+html,
+	header{
+	position: relative;
+	color: white;
+		}
+		.head-word{
+			letter-spacing: 10px;
+			color: turquoise;
+			font-size: 40px;
+			font-weight: 400;
+			padding-left: 10px;
+		}
+	
+		.note{
+			position: absolute;
+			top: 400px;
+			  right: 16px;
+			 font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+			 font-size: 100px;
+		}
+		.nav{
+			position: absolute;
+			top: 20px;
+			right: 3%;
+			
+		}
+		.nav a{
+		text-decoration: none;
+		margin: 23px;
+		color: white;
+		
+		
+		}
+		.nav a:hover{
+		color: chartreuse;
+		}
+						
+		body {
+			background-color: rgb(62, 64, 65);
+		margin: 0px;
+		color: white;
+		font-size: 18px;
+		font-family: sans-serif;
+		
+			}
+	@media (max-width: 1200px){
+			.note{
+				font-size: 60px;
+				top: 100px;
+			}
+		
+			.nav{
+				font-size: medium;
+				text-align: center;
+			}
+			.nav a{
+				margin: 18px;	
+			}
+		}
+
+	@media (max-width:550px){
+		.note{
+			font-size: 30px;
+		}
+		.nav a{
+			margin:3px ;
+			font-size: small;
+			
+		}
+		}
+
+	@media(max-width: 1200px){
+			.oil-site{
+				width: 60%;
+				padding-left: 60px;
+			}
+		}
+		
+		.oil-site{
+		border-radius: 50%;
+		margin: 30px;
+		}
+		button{
+			background-color: blue;
+			color: white;
+			width: 45px;
+			
+		}
+		.info{
+			text-align: center;
+			font-size: small;
+		}
+	.phone{
+		padding-left: 25px;
+	}
+	.CS{
+		text-decoration: none;
+		color: aquamarine;
+		padding-left: 10px;
+	}
+	footer{
+	background-color: black; 
+	}					

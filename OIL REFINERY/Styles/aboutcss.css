@@ -1,0 +1,107 @@
+header{
+    background-color: black;
+}
+.head-word{
+    letter-spacing: 10px;
+    color: turquoise;
+    font-size: 40px;
+    font-weight: 400;
+    padding-left: 10px;
+}
+nav{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav a{ color: white;
+    margin: 20px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: lawngreen;
+}
+
+.tag1{
+    background-color: white;
+     border-radius: 70px;
+     float: left;
+     margin:20px ;
+     width: 35%;
+     
+ }
+.tag2{
+   background-color: white;
+    width: 30%;
+    border-radius: 70px;
+    float: right;
+    margin:20px ;
+}
+.tags-content{
+    margin: 30px;
+ 
+    
+}
+.tag3{
+    border-radius: 95px;
+    background-color: tomato;
+    position: absolute;
+    width: 24%;
+    left: 10%; 
+    margin: 19%; 
+    top: 30%;
+}
+
+body{font-family: Arial, Helvetica, sans-serif;
+   margin: 0px;
+   background-color: rgb(73, 66, 66);
+   font-size: 18px;
+}
+/*blackberry fix*/
+@media(max-width: 700px){
+    .tag3{
+        width: 265px;
+        height: 210px; 
+        left: 5px;
+        top: 63%;
+        margin: 0px;
+        font-size: 15px;
+    }
+    .tag2,.tag1{
+        width: 45%;
+        margin: 3px;
+        margin-top: 12px;
+        border-radius: 50px;
+        font-size: 14px;
+    }
+    nav a{
+        font-size: 14px;
+    }
+}
+/*fix for ipads*/
+@media(min-width: 900px){
+    .tag3{
+        top: 20%;
+    }
+
+}
+
+
+.info{
+    text-align: center;
+    font-size: small;
+}
+.phone{
+    padding-left: 25px;
+}
+.CS{
+    text-decoration: none;
+    color: aquamarine;
+    padding-left: 10px;
+}
+
+footer{
+    background-color: black; 
+    color: white;
+    margin-top: 725px;
+    }	
+    /*all are important fixes !!!!!!*/			
